@@ -1,0 +1,11 @@
+{
+  "name": "pocket-signals-replit",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "npm --prefix server i && npm --prefix client i",
+    "build": "npm --prefix client run build",
+    "dev": "node server/server.js",
+    "start": "NODE_ENV=production node server/server.js"
+  }
+}
