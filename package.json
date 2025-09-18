@@ -1,0 +1,15 @@
+{
+  "name": "pocket-signals-replit",
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "npm --prefix server i && npm --prefix client i",
+    "build": "npm --prefix client run build",
+    "start": "NODE_ENV=production node server/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "socket.io-client": "^4.7.5"
+  }
+}
