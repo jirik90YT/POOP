@@ -1,3 +1,0 @@
-run = "bash -lc 'npm run setup && npm run build && npm start'"
-hidden = ["node_modules", "server/node_modules", "client/node_modules"]
-language = "nodejs"
